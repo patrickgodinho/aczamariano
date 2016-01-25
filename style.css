@@ -1,0 +1,42 @@
+.top-header {
+     min-height:10px;
+     color: #FFF !important; 
+     background-color: #222;
+}
+
+.top-header .navbar-nav > li > a {
+    padding-top:4px !important;
+    padding-bottom:4px !important;
+    font-family: 'Arvo';
+    color: #DDD !important;
+}
+.top-header .navbar-nav > li a:hover {
+    background-color: red !important;
+    color: black !important;
+}
+.logo{
+    min-height: 200px;
+}
+.slider{
+        min-height: 300px;
+}
+.menu{
+
+}
+.posts{
+
+}
+.sidebar{
+
+}
+.wrapper{
+
+}
+.footer{
+
+}
+.borda{
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+}
