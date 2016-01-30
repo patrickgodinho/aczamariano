@@ -38,19 +38,19 @@
   color: grey !important;
 }
 .header {
-  margin-top: 2%;
+  padding: 20px;
 }
 .logo {
-  margin-top: 20px;
-  min-height: 200px;
+  /*margin-top: 20px;*/
+  /*min-height: 130px;*/
 }
 .logo img{
-  max-width: 500px;
+  max-width: 450px;
   min-width: 100px;
 }
 
 .menu-categoria{
-  
+
   border-bottom: solid;
   border-color: black;
   border-top: none;
@@ -68,8 +68,8 @@
 .menu .navbar-nav  > li > a {
   color: #000000;
   display: block;
-  font-family: 'Lato';
-  font-size: 9pt;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 14pt;
   letter-spacing: 0.4px;
   outline: medium none;
   padding: 0 6px;
@@ -112,19 +112,43 @@
   padding: 10px;
   width: auto;
   height: auto;
-  max-width: 100%; 
+  max-width: 100%;
   max-height: 100%;
 }
 .sidebar {
 
   padding: 10px;
 }
-.sidebar-header {
-  
+.sidebar-profile, .sidebar-item{
+  padding: 20px;
+  border-bottom: solid;
+  border-width: 10px;
+}
+.sidebar-profile{
+
+}
+.sidebar-profile h4 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24pt;
+}
+.sidebar-profile-body{
+
+    text-align: center;
+}
+.sidebar-profile img{
+  max-width: 100%;
+}
+.author-name{
+  padding: 10px;
+  font-size: 14pt;
+font-family: 'Architects Daughter', cursive;
+}
+.leia-mais{
+  border-style: solid;
 }
 .social-logos{
   border-bottom: solid;
-  border-bottom-width: 5px;
+  border-bottom-width: 10px;
   padding: 5px;
 }
 .social-logos a {
@@ -132,7 +156,8 @@
 }
 .wrapper {}
 .footer {
-
+  min-height: 200px;
+  background-color: black;
 }
 #owl-demo .item{
   margin: 3px;
